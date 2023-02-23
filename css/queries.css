@@ -1,0 +1,38 @@
+@media (max-width: 28.5em) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .order-card {
+    width: 18.75rem;
+  }
+
+  .order-text {
+    padding: var(--30px);
+  }
+
+  .desc {
+    padding: 0 var(--12px);
+  }
+
+  .plan {
+    gap: var(--26px);
+  }
+
+  .icon-music {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  .order-card {
+    width: 100%;
+  }
+
+  .order-text {
+    padding: var(--18px);
+  }
+}
